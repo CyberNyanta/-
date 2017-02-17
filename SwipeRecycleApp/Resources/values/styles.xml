@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style
+        name="FareboomBaseTheme"
+        parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style
+        name="FareboomTheme"
+        parent="FareboomBaseTheme">
+
+        <item name="windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style
+        name="FareboomTheme.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style
+        name="FareboomTheme.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--<style-->
+        <!--name="Base.Widget.Design.TabLayout"-->
+        <!--parent="android:Widget">-->
+
+        <!--<item name="tabIndicatorColor">@color/blue_light</item>-->
+    <!--</style>-->
+
+    <style
+        name="ButtonBlue"
+        parent="FareboomBaseTheme">
+
+        <item name="colorControlHighlight">@color/buttonBlueControlHighlight</item>
+
+        <item name="colorButtonNormal">@color/blue</item>
+    </style>
+
+    <style
+        name="ButtonOrange"
+        parent="FareboomBaseTheme">
+
+        <item name="colorControlHighlight">#c07310</item>
+
+        <item name="colorButtonNormal">@color/orange</item>
+    </style>
+
+    <style
+        name="ButtonFacebook"
+        parent="FareboomBaseTheme">
+
+        <item name="colorControlHighlight">#4C70BA</item>
+
+        <item name="colorButtonNormal">#3B5998</item>
+    </style>
+
+    <style
+        name="ButtonGoogle"
+        parent="FareboomBaseTheme">
+
+        <item name="colorControlHighlight">#E5E5E5</item>
+
+        <item name="colorButtonNormal">@color/white</item>
+    </style>
+
+    <style
+        name="FareboomSplashTheme"
+        parent="Theme.AppCompat.NoActionBar">
+
+        <!--<item name="android:windowBackground">@drawable/background_splash</item>-->
+    </style>
+
+    <style
+        name="RatingBarOrange"
+        parent="@android:style/Widget.RatingBar">
+
+        <!--<item name="android:progressDrawable">@drawable/rating_bar_drawable</item>-->
+    </style>
+
+    <style
+        name="EditTextBlue"
+        parent="FareboomBaseTheme">
+
+        <item name="colorControlNormal">@color/gray_line</item>
+
+        <item name="colorControlActivated">@color/blue</item>
+
+        <item name="android:textColor">@color/black</item>
+
+        <item name="android:textColorHint">@color/gray_text</item>
+    </style>
+
+</resources>

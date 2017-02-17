@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:tag="reveal-right"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+
+    <!-- this view reveals when swipe left -->
+    <RelativeLayout
+        android:tag="reveal-left"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:tag="front"
+        android:id="@+id/box_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:foreground="?android:selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="@dimen/trip_card__box_root__elevation"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="0dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/global__box_root__padding">
+            <!-- Photo Preview:-->
+            <ImageView
+                android:id="@+id/img_photo_item_preview"
+                android:layout_width="@dimen/airline_review_photo_list_item__img_preview__size"
+                android:layout_height="@dimen/airline_review_photo_list_item__img_preview__size"
+                android:scaleType="centerCrop"
+                android:src="@color/colorAccent" />
+            <!-- :Photo Preview-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_photo_item_preview"
+                android:layout_toLeftOf="@+id/checkbox_select_item"
+                android:layout_toRightOf="@+id/img_photo_item_preview"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/global__box_root__padding"
+                android:paddingRight="@dimen/global__box_root__padding"
+                >
+                <!--Approved:-->
+                <TextView
+                    android:id="@+id/txt_photo_item_approved"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/airline_review_photo_list_item__txt_approved__text_size"
+                    tools:text="_approved" />
+                <!-- :Approved-->
+                <!--Comment:-->
+                <TextView
+                    android:id="@+id/txt_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/airline_review_photo_list_item__txt_big_text__text_size"
+                    tools:text="_comment" />
+                <!-- :Comment -->
+                <!--Category:-->
+                <TextView
+                    android:id="@+id/txt_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_text"
+                    android:textSize="@dimen/airline_review_photo_list_item__txt_big_text__text_size"
+                    tools:text="_Category" />
+                <!-- :Category -->
+            </LinearLayout>
+            <!--Select photo:-->
+            <CheckBox
+                android:id="@+id/checkbox_select_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/blue"
+                android:visibility="gone" />
+            <!--Select photo:-->
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

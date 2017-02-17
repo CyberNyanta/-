@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources> <!--Default-->
+
+  <!--BASE-->
+  <dimen name="text_small">12sp</dimen>
+
+  <dimen name="text_medium">14sp</dimen>
+
+  <dimen name="text_large">16sp</dimen>
+
+
+  <dimen name="layout_small">6dp</dimen>
+
+  <dimen name="layout_medium">12dp</dimen>
+
+  <dimen name="layout_large">18dp</dimen>
+
+
+  <dimen name="field_small__text_size">14sp</dimen>
+
+  <dimen name="field_medium__text_size">16sp</dimen>
+
+  <dimen name="field_large__text_size">18sp</dimen>
+
+
+  <dimen name="button_large__height">70dp</dimen>
+
+
+
+  <!--AUTH-->
+  <dimen name="auth__img_logo__margin_bottom">18dp</dimen>
+  <dimen name="auth__btn_sign_in__margin_bottom">6dp</dimen>
+
+
+
+  <!--AUTH LINK-->
+  <dimen name="auth_link__txt_header_message__margin_height">18dp</dimen>
+  <dimen name="auth_link__btn_confirm_pin__margin_top">6dp</dimen>
+
+
+
+  <!--SIGN IN-->
+  <dimen name="sign_in__box_footer__padding_side">5dp</dimen>
+  <dimen name="sign_in__img_logo__margin_bottom">12dp</dimen>
+  <dimen name="sign_in__txt_with_fareboom_account__margin_top">6dp</dimen>
+  <dimen name="sign_in__btn_sign_in__margin_height">6dp</dimen>
+
+
+
+  <!--SIGN UP-->
+  <dimen name="sign_up__img_logo__margin_bottom">6dp</dimen>
+  <dimen name="sign_up__box_footer__margin_side">6dp</dimen>
+
+
+
+  <!--RESTORE PASSWORD-->
+  <dimen name="restore_password__txt_header_message__margin_height">18dp</dimen>
+  <dimen name="restore_password__btn_submit__margin_top">12dp</dimen>
+
+
+
+  <!--SUPPORT-->
+  <dimen name="support__txt_header_message_margin_bottom">18dp</dimen>
+  <dimen name="support__btn_contact__margin_height">6dp</dimen>
+  <dimen name="support__box_business_hours__margin_top">18dp</dimen>
+  <dimen name="support__box_business_hours__padding_side">5dp</dimen>
+
+
+
+
+
+  <!--GLOBAL-->
+  <dimen name="global__box_root__padding">10dp</dimen>
+  <dimen name="global__txt_plain_text__text_size">14sp</dimen>
+
+  <!--HOME-->
+  <dimen name="home__txt_book_flight__text_size">18sp</dimen>
+  <dimen name="home__img_book_flight__size">14dp</dimen>
+
+  <!--TRIP WIDGET-->
+  <dimen name="trip_widget__box_content__margin_side">10dp</dimen>
+  <dimen name="trip_widget__box_content_row__margin_side">10dp</dimen>
+  <dimen name="trip_widget__box_content_row__margin_top">10dp</dimen>
+  <dimen name="trip_widget__box_header__padding">5dp</dimen>
+  <dimen name="trip_widget__box_header_status__margin_bottom">3dp</dimen>
+  <dimen name="trip_widget__txt_header_status__text_size">12sp</dimen>
+  <dimen name="trip_widget__img_header_departure__size">12dp</dimen>
+  <dimen name="trip_widget__img_header_departure__margin_right">5dp</dimen>
+  <dimen name="trip_widget__txt_header_departure__text_size">16sp</dimen>
+  <dimen name="trip_widget__txt_route_title__text_size">16sp</dimen>
+  <dimen name="trip_widget__txt_airport_code__text_size">24sp</dimen>
+  <dimen name="trip_widget__box_progress__margin_side">12dp</dimen>
+  <dimen name="trip_widget__txt_progress__text_size">10sp</dimen>
+  <dimen name="trip_widget__box_flight_duration__margin_top">3dp</dimen>
+  <dimen name="trip_widget__box_progress_bar__margin_top">-2dp</dimen>
+  <dimen name="trip_widget__img_location_plane__size">30dp</dimen>
+  <dimen name="trip_widget__txt_location__margin_left">10dp</dimen>
+  <dimen name="trip_widget__txt_location__text_size">12sp</dimen>
+  <dimen name="trip_widget__img_location_map__size">20dp</dimen>
+  <dimen name="trip_widget__txt_label__text_size">12sp</dimen>
+  <dimen name="trip_widget__txt_value__text_size">16sp</dimen>
+  <dimen name="trip_widget__txt_value_old__text_size">12sp</dimen>
+  <dimen name="trip_widget__img_airline__size">30dp</dimen>
+  <dimen name="trip_widget__txt_details__text_size">12sp</dimen>
+  <dimen name="trip_widget__img_details__size">10dp</dimen>
+  <dimen name="trip_widget__img_details__margin_left">5dp</dimen>
+  <dimen name="trip_widget__box_airport_change__padding_height">5dp</dimen>
+  <dimen name="trip_widget__txt_airport_change__text_size">14sp</dimen>
+  
+  <!--MY TRIPS-->
+  <dimen name="my_trips__tab_indicator_height">4dp</dimen>
+  <dimen name="my_trips__lst_trips__margin_bottom">65dp</dimen>
+  <dimen name="my_trips__btn_book_flight__margin">5dp</dimen>
+  <dimen name="my_trips__btn_book_flight__height">60dp</dimen>
+  <dimen name="my_trips__btn_book_flight__text_size">16sp</dimen>
+
+  <!--TRIP CARD-->
+  <dimen name="trip_card__box_root__margin">5dp</dimen>
+  <dimen name="trip_card__box_root__elevation">1dp</dimen>
+  <dimen name="trip_card__box_active_line__width">4dp</dimen>
+  <dimen name="trip_card__box_content__padding">5dp</dimen>
+  <dimen name="trip_card__box_route_title__margin_bottom">5dp</dimen>
+  <dimen name="trip_card__txt_route_title__text_size">16sp</dimen>
+  <dimen name="trip_card__img_arrow_right__size">12dp</dimen>
+  <dimen name="trip_card__txt_date_label__text_size">12sp</dimen>
+  <dimen name="trip_card__box_date_value__margin_top">1dp</dimen>
+  <dimen name="trip_card__txt_date_value__text_size">12sp</dimen>
+  <dimen name="trip_card__box_schedule_change__padding">10dp</dimen>
+  <dimen name="trip_card__box_schedule_change__height">30dp</dimen>
+  <dimen name="trip_card__img_schedule_change__size">14dp</dimen>
+  <dimen name="trip_card__img_schedule_change__margin_right">5dp</dimen>
+  <dimen name="trip_card__txt_schedule_change__text_size">14sp</dimen>
+
+  <!--SHARED TRIP CARD-->
+  <dimen name="shared_trip_card__box_header__margin_top">15dp</dimen>
+  <dimen name="shared_trip_card__box_header__padding_side">10dp</dimen>
+  <dimen name="shared_trip_card__img_notification__size">14dp</dimen>
+
+  <!--TAB HEADER-->
+  <dimen name="tab_header__txt_title__margin_top">6dp</dimen>
+  <dimen name="tab_header__txt_title__margin_right">-6dp</dimen>
+  <dimen name="tab_header__txt_title__text_size">12sp</dimen>
+  <dimen name="tab_header__txt_badge__text_size">12sp</dimen>
+  <dimen name="tab_header__txt_badge__size">16dp</dimen>
+
+  <!--TRIP DETAILS-->
+  <dimen name="trip_details_order__box_root__padding_height">15dp</dimen>
+  <dimen name="trip_details_order__box_root__padding_side">15dp</dimen>
+  <dimen name="trip_details_order__txt_label__text_size">14sp</dimen>
+  <dimen name="trip_details_order__txt_title__text_size">18sp</dimen>
+  <dimen name="trip_details_order__txt_value__text_size">16sp</dimen>
+  <dimen name="trip_details_order__box_row__margin_top">10dp</dimen>
+  <dimen name="trip_details_passenger__txt__name__text_size">16sp</dimen>
+  <dimen name="trip_details_passenger__txt_ticket_number__text_size">14sp</dimen>
+  <dimen name="trip_details_passenger__txt_ticket_number__margin_left">5dp</dimen>
+  <dimen name="trip_details_order__corner__width">60dp</dimen>
+  <dimen name="trip_details_order__corner__height">15dp</dimen>
+  <dimen name="trip_details_order__corner__margin_bottom">8dp</dimen>
+  <dimen name="trip_details_order__corner__margin_top">-2dp</dimen>
+  <dimen name="trip_details_leg__box_root__padding">10dp</dimen>
+  <dimen name="trip_details_leg__box_header__padding_height">10dp</dimen>
+  <dimen name="trip_details_leg__box_header__padding_side">10dp</dimen>
+  <dimen name="trip_details_leg__box_header_separator__padding_side">2dp</dimen>
+  <dimen name="trip_details_leg__txt_location_code__text_size">32sp</dimen>
+  <dimen name="trip_details_leg__txt_location_city__text_size">14sp</dimen>
+  <dimen name="trip_details_leg__txt_location_city__margin_top">1dp</dimen>
+  <dimen name="trip_details_leg__txt_date__margin_top">1dp</dimen>
+  <dimen name="trip_details_leg__txt_date__text_size">14sp</dimen>
+  <dimen name="trip_details_leg__box_travel_time__paddin_top">15dp</dimen>
+  <dimen name="trip_details_leg__box_travel_time__paddin_bottom">5dp</dimen>
+  <dimen name="trip_details_leg__txt_travel_time__text_size">14sp</dimen>
+  <dimen name="trip_details_sector__box_top_line__height">1dp</dimen>
+  <dimen name="trip_details_sector__box_active_line__width">5dp</dimen>
+  <dimen name="trip_details_sector__box_content__padding_side">5dp</dimen>
+  <dimen name="trip_details_sector__box_content__padding_height">5dp</dimen>
+  <dimen name="trip_details_sector__box_content_line__padding_height">2dp</dimen>
+  <dimen name="trip_details_sector__txt_route_title__text_size">16sp</dimen>
+  <dimen name="trip_details_sector__img_arrow_right__size">12dp</dimen>
+  <dimen name="trip_details_sector__img_plane__size">12dp</dimen>
+  <dimen name="trip_details_sector__txt_flight_number__margin_left">5dp</dimen>
+  <dimen name="trip_details_sector__txt_flight_number__text_size">14sp</dimen>
+  <dimen name="trip_details_sector__txt_flight_status__margin_left">5dp</dimen>
+  <dimen name="trip_details_sector__txt_flight_status__text_size">14sp</dimen>
+  <dimen name="trip_details_sector__txt_flight_duration__text_size">12sp</dimen>
+  <dimen name="trip_details_sector__box_layover__margin_left">20dp</dimen>
+  <dimen name="trip_details_sector__txt_layover__text_size">12sp</dimen>
+  <dimen name="trip_details_footer__box_root__padding_side">20dp</dimen>
+  <dimen name="trip_details_footer__box_root__padding_top">10dp</dimen>
+  <dimen name="trip_details_footer__box_root__padding_bottom">15dp</dimen>
+  <dimen name="trip_details_footer__txt_title__text_size">16sp</dimen>
+  <dimen name="trip_details_footer__txt_title__margin_bottom">10dp</dimen>
+  <dimen name="trip_details_footer__txt_button__text_size">16sp</dimen>
+  <dimen name="trip_details_footer__img_button__size">18dp</dimen>
+  <dimen name="trip_details_footer__img_button__margin_right">3dp</dimen>
+
+  <!--PASSENDER DETAILS-->
+  <dimen name="passenger_details__box_root__padding_height">10dp</dimen>
+  <dimen name="passenger_details__box_root__padding_side">15dp</dimen>
+  <dimen name="passenger_details__txt_full_name__text_size">24sp</dimen>
+  <dimen name="passenger_details__txt_full_name__margin_bottom">5dp</dimen>
+  <dimen name="passenger_details__box_row__margin_top">15dp</dimen>
+  <dimen name="passenger_details__txt_label__text_size">16sp</dimen>
+  <dimen name="passenger_details__txt_value__text_size">14sp</dimen>
+  <dimen name="passenger_details__box_footer_line__margin_height">20dp</dimen>
+
+  <!--OUTDATED ALERT-->
+  <dimen name="alert_outdated__txt_message__text_size">14sp</dimen>
+  <dimen name="alert_outdated__box_update_button__margin_top">10dp</dimen>
+  <dimen name="alert_outdated__img_button_icon__size">14dp</dimen>
+  <dimen name="alert_outdated__img_button_icon__margin_right">5dp</dimen>
+  <dimen name="alert_outdated__txt_button__text_size">18sp</dimen>
+
+  <!--SCHEDULE CHANGE ALERT-->
+  <dimen name="alert_schedule_change__box_root__padding_height">15dp</dimen>
+  <dimen name="alert_schedule_change__box_root__padding_side">20dp</dimen>
+  <dimen name="alert_schedule_change__img_icon__size">16dp</dimen>
+  <dimen name="alert_schedule_change__txt_message__text_size">14sp</dimen>
+  <dimen name="alert_schedule_change__txt_button__margin_top">20dp</dimen>
+  <dimen name="alert_schedule_change__txt_button__text_size">18sp</dimen>
+
+  <!--FLIGHT DETAILS-->
+  <dimen name="flight_details__box_root__padding">10dp</dimen>
+  <dimen name="flight_details__box_review__margin_top">10dp</dimen>
+  <dimen name="flight_details__box_review__margin_bottom">15dp</dimen>
+  <dimen name="flight_details__img_button_left_review__size">12dp</dimen>
+  <dimen name="flight_details__img_button_right_review__size">10dp</dimen>
+  <dimen name="flight_details__txt_button_review__margin_side">7dp</dimen>
+  <dimen name="flight_details__txt_button_review__text_size">18sp</dimen>
+  <dimen name="flight_details__box_row__margin_top">10dp</dimen>
+  <dimen name="flight_details__txt_flight_number__text_size">24sp</dimen>
+  <dimen name="flight_details__img_airline__size">22dp</dimen>
+  <dimen name="flight_details__txt_operated_by__text_size">14sp</dimen>
+  <dimen name="flight_details__box_aircraft_type__margin_top">2dp</dimen>
+  <dimen name="flight_details__txt_aircraft_type__text_size">14sp</dimen>
+  <dimen name="flight_details__box_status__margin_height">5dp</dimen>
+  <dimen name="flight_details__txt_status__text_size">14sp</dimen>
+  <dimen name="flight_details__img_change_alert__size">14dp</dimen>
+  <dimen name="flight_details__img_change_alert__margin_right">12dp</dimen>
+  <dimen name="flight_details__txt_change_alert__text_size">16sp</dimen>
+  <dimen name="flight_details__box_change_alert__margin_bottom">5dp</dimen>
+  <dimen name="flight_details__box_departure_location__margin_top">10dp</dimen>
+  <dimen name="flight_details__txt_departure_location__text_size">30sp</dimen>
+  <dimen name="flight_details__img_departure_location_plane__size">28dp</dimen>
+  <dimen name="flight_details__img_departure_location_map__size">22dp</dimen>
+  <dimen name="flight_details__txt_departure_location_full__margin_top">5dp</dimen>
+  <dimen name="flight_details__txt_departure_location_full__text_size">16sp</dimen>
+  <dimen name="flight_details__txt_departure_date__text_size">16sp</dimen>
+  <dimen name="flight_details__txt_departure_date__margin_top">5dp</dimen>
+  <dimen name="flight_details__txt_label__text_size">14sp</dimen>
+  <dimen name="flight_details__txt_value__text_size">16sp</dimen>
+  <dimen name="flight_details__txt_value_old__text_size">14sp</dimen>
+  <dimen name="flight_details__box_flight_duration__margin_height">5dp</dimen>
+  <dimen name="flight_details__txt_flight_duration__text_size">16sp</dimen>
+  <dimen name="flight_details__img_arrival_location_plane__size">28dp</dimen>
+  <dimen name="flight_details__img_arrival_location_map__size">22dp</dimen>
+  <dimen name="flight_details__txt_arrival_location__text_size">30sp</dimen>
+  <dimen name="flight_details__box_arrival_location__margin_top">10dp</dimen>
+  <dimen name="flight_details__txt_arrival_location_full__margin_top">5dp</dimen>
+  <dimen name="flight_details__txt_arrival_location_full__text_size">16sp</dimen>
+  <dimen name="flight_details__txt_arrival_date__text_size">16sp</dimen>
+  <dimen name="flight_details__txt_arrival_date__margin_top">5dp</dimen>
+  <dimen name="flight_details__box_weather__margin_height">10dp</dimen>
+  <dimen name="flight_details__box_weather__margin_side">20dp</dimen>
+
+  <!--WEATHER-->
+  <dimen name="weather__box_root__margin_height">5dp</dimen>
+  <dimen name="weather__box_root__margin_side">15dp</dimen>
+  <dimen name="weather__txt_header__text_size">16sp</dimen>
+  <dimen name="weather__txt_header__margin_height">5dp</dimen>
+  <dimen name="weather__box_forecast_hr__height">2dp</dimen>
+  <dimen name="weather__box_forecast_item__margin_height">5dp</dimen>
+  <dimen name="weather__box_forecast_row__margin_top">3dp</dimen>
+  <dimen name="weather__txt_forecast_item__text_size">14sp</dimen>
+  <dimen name="weather__img_forecast_icon__size">12dp</dimen>
+
+  <!--AIRLINE REVIEW INTRO-->
+  <dimen name="airline_review_intro__txt_title__text_size">24sp</dimen>
+  <dimen name="airline_review_intro__txt_description__margin_top">15dp</dimen>
+  <dimen name="airline_review_intro__txt_description__margin_bottom">30dp</dimen>
+  <dimen name="airline_review_intro__txt_description__text_size">20sp</dimen>
+  <dimen name="airline_review_intro__btn_review__height">76dp</dimen>
+  <dimen name="airline_review_intro__btn_review__text_size">16sp</dimen>
+  <dimen name="airline_review_intro__box_footer__height">100dp</dimen>
+  <dimen name="airline_review_intro__box_footer__padding_side">5dp</dimen>
+  <dimen name="airline_review_intro__txt_footer__text_size">18sp</dimen>
+  <dimen name="airline_review_intro__box_footer__padding_height">5dp</dimen>
+  <dimen name="airline_review_intro__txt_no_thanks_btn__margin_height">18dp</dimen>
+  <dimen name="airline_review_upload_photo_intro__txt_header__text_size">25sp</dimen>
+
+
+  <!--AIRLINE REVIEW EXPERIENCE-->
+  <dimen name="airline_review_experience__txt_category__margin_side">20dp</dimen>
+  <dimen name="airline_review_experience__txt_category__margin_top">40dp</dimen>
+  <dimen name="airline_review_experience__txt_category__text_size">22sp</dimen>
+  <dimen name="airline_review_experience__box_footer__margin_bottom">5dp</dimen>
+  <dimen name="airline_review_experience__box_footer__margin_side">15dp</dimen>
+  <dimen name="airline_review_experience__txt_footer_button__text_size">16sp</dimen>
+  <dimen name="airline_review_experience__txt_footer_button__padding_height">10dp</dimen>
+  <dimen name="airline_review_experience__txt_footer_progress__text_size">14sp</dimen>
+
+  <!--AIRLINE REVIEW CONTROLS-->
+  <dimen name="airline_review_question__progress__height">35dp</dimen>
+  <dimen name="airline_review_question__box_question__padding_side">30dp</dimen>
+  <dimen name="airline_review_question__txt_question__text_size">22sp</dimen>
+  <dimen name="airline_review_question__txt_question__margin_bottom">40dp</dimen>
+  <dimen name="airline_review_question__radio_item__text_size">22sp</dimen>
+  <dimen name="airline_review_question__checkbox_item__text_size">22sp</dimen>
+  <dimen name="airline_review_question__img_rate__size">30dp</dimen>
+  <dimen name="airline_review_question__img_rate__margin_top">-25dp</dimen>
+  <dimen name="airline_review_question__img_rate__margin_bottom">5dp</dimen>
+  <dimen name="airline_review_question__txt_rate__margin_bottom">15dp</dimen>
+  <dimen name="airline_review_question__txt_answer__text_size">16sp</dimen>
+
+  <!--TRIP DETAILS: CANCEL TRIP PASSWORD-->
+  <dimen name="trip_details_dialog_cancel_password__fld_password__text_size">16sp</dimen>
+  <dimen name="trip_details_dialog_cancel_password__box_root__padding">10dp</dimen>
+
+  <!-- Settings -->
+  <dimen name="settings__box__padding">10dp</dimen>
+  <dimen name="settings__img__size">15dp</dimen>
+  <dimen name="settings__img__padding_right">5dp</dimen>
+  <dimen name="settings__txt_user_name__margin_left">5dp</dimen>
+  <dimen name="settings__txt_user_name__text_size">18sp</dimen>
+  <dimen name="settings__txt_user_email__margin_top">0dp</dimen>
+  <dimen name="settings__txt_user_email__margin_left">20dp</dimen>
+  <dimen name="settings__txt_user_email__text_size">14sp</dimen>
+  <dimen name="settings__box_credits__margint_top">10dp</dimen>
+  <dimen name="settings__txt_credits_title__padding_left">5dp</dimen>
+  <dimen name="settings__txt_credits_title__text_size">18sp</dimen>
+  <dimen name="settings__txt_appication_version__margin_top">10dp</dimen>
+  <dimen name="settings__txt_appication_version__text_size">14sp</dimen>
+  <dimen name="settings__txt_sign_out__margin_height">20dp</dimen>
+  <dimen name="settings__txt_sign_out_icon__padding">10dp</dimen>
+  <dimen name="settings__header_footer__margin_side">16dp</dimen>
+
+  <!-- Share trip-->
+  <dimen name="share__title__text_size">22sp</dimen>
+  <dimen name="share__content_text__text_size">18sp</dimen>
+  <dimen name="share__button_label__text_size">18sp</dimen>
+  <dimen name="share__emails_label__text_size">25sp</dimen>
+  <dimen name="share__input_fields__text_size">14sp</dimen>
+  <dimen name="share__contact_label__text_size">18sp</dimen>
+  <dimen name="share__field__text_size">14sp</dimen>
+  <dimen name="share__box__paddin_side"> 16dp</dimen>
+  <dimen name="share__box__padding_top">24dp</dimen>
+  <dimen name="share__input_fields__margin_height">16dp</dimen>
+  <dimen name="share__button__height"> 70dp</dimen>
+  <dimen name="share__emails_label__margin_top"> 16dp</dimen>
+	<dimen name="share__txt_contact_plus_sign__margin_top"> 12dp</dimen>
+
+  <!-- Airline Review Thank You Screen -->
+  <dimen name="airline_review_end__txt_message__text_size">24sp</dimen>
+  <dimen name="airline_review_end__txt_button_done__text_size">30sp</dimen>
+  <dimen name="airline_review_end__txt_button_done__margin_height">30dp</dimen>
+  <dimen name="airline_review_end__txt_message__margin_side">20dp</dimen>
+  <dimen name="airline_review_end__img_icon_star__size">80dp</dimen>
+  <dimen name="airline_review_end__img_icon_star__margin_bottom">20dp</dimen>
+
+  <dimen name="airline_review_loaded_images_screen__box_item__padding_side">8dp</dimen>
+  <dimen name="airline_review_loaded_images_screen__img_thumbnail__size">70dp</dimen>
+  <dimen name="airline_review_loaded_images_screen__img_delete_btn__size">35dp</dimen>
+
+  <dimen name="menu_action_badged__box__size">48dp</dimen>
+  <dimen name="menu_action_badged__txt_plus__text_size">18sp</dimen>
+  <dimen name="menu_action_badged__img_icon__size">24dp</dimen>
+  <dimen name="menu_action_badged__txt_badge_value__padding">4dp</dimen>
+  <dimen name="menu_action_badged__txt_badge_value__text_size">14sp</dimen>
+  <dimen name="menu_action_badged__txt_badge_value__size">24dp</dimen>
+
+	<!--TAB HEADER-->
+	<dimen name="tab_header__img_icon__size">30dp</dimen>
+	<dimen name="tab_header__img_icon__margin_right">6dp</dimen>
+
+  <!--AIRLINE REVIEW EDIT PHOTO-->
+  <dimen name="airline_review_edit_photo__box_footer__padding_height">5dp</dimen>
+  <dimen name="airline_review_edit_photo__box_footer__padding_side">5dp</dimen>
+  <dimen name="airline_review_edit_photo__txt_cancel__text_size">16sp</dimen>
+  <dimen name="airline_review_edit_photo__txt_cancel__margin_height">18dp</dimen>
+  <dimen name="airline_review_edit_photo__btn_done__text_size">16sp</dimen>
+  <dimen name="airline_review_edit_photo__btn_done__height">76dp</dimen>
+  <dimen name="airline_review_edit_photo__img_photo_preview__margin_height">15dp</dimen>
+  <dimen name="airline_review_edit_photo__box_controls_form__margin_bottom">15dp</dimen>
+  <dimen name="airline_review_edit_photo__spinner__height">35dp</dimen>
+  <!-- AIRLINE REVIEW PHOTOS LIST  -->
+  <dimen name="airline_review_photos_list__btn_footer__height">70dp</dimen>
+  <dimen name="airline_review_photos_list__btn_footer__text_size">12sp</dimen>
+  <dimen name="airline_review_photos_list__box_footer__padding">5dp</dimen>
+  <dimen name="airline_review_photo_list_item__txt_big_text__text_size">18sp</dimen>
+  <dimen name="airline_review_photo_list_item__txt_approved__text_size">14sp</dimen>
+  <dimen name="airline_review_photo_list_item__img_preview__size">100dp</dimen>
+
+</resources>
