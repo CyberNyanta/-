@@ -1,0 +1,10 @@
+Binding for:
+co.dift.ui.swipetoaction:library:1.1
+
+Dependencies:
+
+library-1.1.aar,    Path=C:\Users\evgeniy.siyanko\.gradle\caches\modules-2\files-2.1\co.dift.ui.swipetoaction\library\1.1\dc969c14d2befd5c1fd42681594a78ad8bca3dd2\library-1.1.aar
+	appcompat-v7-22.2.0.aar,    Path=D:\Software\Android\AndroidSDK\extras\android\m2repository\com\android\support\appcompat-v7\22.2.0\appcompat-v7-22.2.0.aar
+	recyclerview-v7-22.2.0.aar,    Path=D:\Software\Android\AndroidSDK\extras\android\m2repository\com\android\support\recyclerview-v7\22.2.0\recyclerview-v7-22.2.0.aar
+	support-annotations-22.2.0.jar,    Path=D:\Software\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar
+	support-v4-22.2.0.aar,    Path=D:\Software\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\22.2.0\support-v4-22.2.0.aar
